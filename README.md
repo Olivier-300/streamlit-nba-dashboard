@@ -37,5 +37,5 @@ Ensure you have the following installed:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/streamlit-nba-dashboard.git
+git clone https://github.com/Olivier-300/streamlit-nba-dashboard.git
 cd streamlit-nba-dashboard

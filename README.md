@@ -1,7 +1,5 @@
 # 🏀 Basketball Stats & Analysis App
 
-![Basketball Stats](basketball_stats.png)
-
 **Basketball Stats & Analysis** is a **Streamlit** web application that allows users to analyze **NBA player statistics**, visualize **shot charts**, and explore **dynamic performance metrics**. The application leverages **Pandas, Plotly, and Matplotlib** to provide rich visualizations and insights.
 
 ## 🚀 Features
@@ -47,18 +45,18 @@ The application will be accessible at `http://localhost:8501/`.
 ## 📊 Usage
 
 ### 🏀 Player Profile Page
-![Player Profile](images/player_profile.png)
+![Player Profile](PlayerProfile.png)
 - View **detailed player stats** and **background information**.
 - Explore **career achievements, skills, and project experiences**.
 
 ### 📈 Data Analysis Page
-![Data Analysis](images/data_analysis.png)
+![Data Analysis](StatsComparaison.png)
 - **Filter by season, team, or player** to see relevant statistics.
 - View **interactive graphs** for Points, Rebounds, Assists, and more.
 - Compare players **side-by-side** using **bar plots, scatter plots, and bubble charts**.
 
 ### 🎯 Shot Chart - Court Map Visualization
-![Shot Chart](images/shot_chart.png)
+![Shot Chart](shots_court.png)
 - **View NBA shot maps** for selected players.
 - Analyze **made vs. missed shots** using **red and green markers**.
 - Identify shooting efficiency **from different spots on the court**.

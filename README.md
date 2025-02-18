@@ -1,41 +1,86 @@
-# streamlit-nba-dashboard
-NBA Analytics Dashboard with Streamlit for player analysis and shot chart visualizations.
-# Streamlit NBA Analytics Dashboard
+# 🏀 Basketball Stats & Analysis App
 
-This project is an **NBA Analytics Dashboard** created using **Streamlit**, allowing users to explore and analyze NBA player statistics, generate advanced visualizations, and view player shot charts on a basketball court.
+![Basketball Stats](basketball_stats.png)
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Contact](#contact)
+**Basketball Stats & Analysis** is a **Streamlit** web application that allows users to analyze **NBA player statistics**, visualize **shot charts**, and explore **dynamic performance metrics**. The application leverages **Pandas, Plotly, and Matplotlib** to provide rich visualizations and insights.
 
-## Project Description
-This app provides users with a comprehensive dashboard to analyze NBA statistics, player performance, and visualizations such as:
-- General statistics comparison between players.
-- Shot charts on a basketball court map.
-- Dynamic plots to compare points, efficiency, 3-point statistics, and more.
+## 🚀 Features
 
-It is designed for sports enthusiasts, data scientists, or anyone interested in gaining deeper insights into NBA statistics.
+✅ **Player Performance Analysis**: Compare player stats across different seasons.  
+✅ **Dynamic Visualizations**: Graphs and interactive charts for better insights.  
+✅ **Shot Chart Visualization**: See where players make and miss shots on a **basketball court map**.  
+✅ **Filters & Search Options**: Customize your search by season, team, and player.  
+✅ **NBA Data Scraping & Machine Learning**: Automate data retrieval and make predictions.  
 
-## Features
-- **Profile Section**: Displays detailed information about the creator.
-- **Data Analysis**: Explore and analyze NBA player statistics (points, rebounds, assists, etc.).
-- **Court Map**: View shot charts of selected players with their shooting performance visualized on an NBA court.
-- **Dynamic Plots**: Visualize points per player, efficiency, 3-point stats, and more with interactive plots.
+## 📂 Project Structure
 
-## Installation
+```
+BasketballStats/
+│── app.py                  # Main Streamlit application
+│── players_stats_regular.xlsx  # Regular season player statistics
+│── players_stats_playoff.xlsx  # Playoff season player statistics
+│── nba_shot_data_2023_2024.csv  # Shot chart data for NBA players
+│── requirements.txt        # Python dependencies
+│── images/                 # Folder for images used in the README
+```
 
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.x
-- pip (Python package manager)
+## 🛠️ Installation
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Olivier-300/streamlit-nba-dashboard.git
-cd streamlit-nba-dashboard
+git clone https://github.com/your-repo/BasketballStats.git
+cd BasketballStats
+```
+
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the application
+```bash
+streamlit run app.py
+```
+
+The application will be accessible at `http://localhost:8501/`.
+
+## 📊 Usage
+
+### 🏀 Player Profile Page
+![Player Profile](images/player_profile.png)
+- View **detailed player stats** and **background information**.
+- Explore **career achievements, skills, and project experiences**.
+
+### 📈 Data Analysis Page
+![Data Analysis](images/data_analysis.png)
+- **Filter by season, team, or player** to see relevant statistics.
+- View **interactive graphs** for Points, Rebounds, Assists, and more.
+- Compare players **side-by-side** using **bar plots, scatter plots, and bubble charts**.
+
+### 🎯 Shot Chart - Court Map Visualization
+![Shot Chart](images/shot_chart.png)
+- **View NBA shot maps** for selected players.
+- Analyze **made vs. missed shots** using **red and green markers**.
+- Identify shooting efficiency **from different spots on the court**.
+
+## 🎯 How It Works
+
+1️⃣ **Select a season** (Regular or Playoff).  
+2️⃣ **Choose teams and players** from the sidebar filters.  
+3️⃣ **View performance statistics** and compare key metrics.  
+4️⃣ **Analyze shot accuracy** and shooting trends using the court map.  
+
+## 🔐 Technologies Used
+
+- **Streamlit** 🎛️: Web app framework for data visualization.
+- **Pandas** 🐼: Data processing and analysis.
+- **Plotly & Matplotlib** 📊: Dynamic and interactive data visualization.
+- **NBA API & Web Scraping** 🕵️‍♂️: Data retrieval for player statistics.
+
+## 📜 License
+
+This project is licensed under **MIT**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+💡 *Want to contribute? Feel free to open an issue or pull request!* 🚀

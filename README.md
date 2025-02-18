@@ -50,7 +50,7 @@ The application will be accessible at `http://localhost:8501/`.
 - Explore **career achievements, skills, and project experiences**.
 
 ### 📈 Data Analysis Page
-![Data Analysis](StatsComparaison.png)
+![Data Analysis](StatsComaparaison.png)
 - **Filter by season, team, or player** to see relevant statistics.
 - View **interactive graphs** for Points, Rebounds, Assists, and more.
 - Compare players **side-by-side** using **bar plots, scatter plots, and bubble charts**.

@@ -107,7 +107,7 @@ def page_profile():
     st.write("""
     ### Engineering Student at EFREI Paris
     Currently pursuing an engineering degree in digital technologies at **EFREI Paris** (2021 - 2026), with an international exchange experience at **Concordia University** in Montreal (August 2023 - December 2023).
-    I am actively looking for a **2-year work-study opportunity** as a **Data Scientist** starting in **September 2024** with a rhythm of 3 days in a company and 2 days at school.
+    I am actively looking for a **2-year work-study opportunity** as a **Data Scientist** starting in **September 2025** with a rhythm of 3 days in a company and 2 days at school.
     
     #### Education:
     - **EFREI Paris** (2021 - 2026): Currently studying digital engineering.
